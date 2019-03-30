@@ -2,7 +2,6 @@
 title : linux day1
 author : jeon012
 layout : post
-categories : [pp2]
 ---
 <p><img src="스크린샷 2018-08-18 오후 11.23.00.png" alt=""></p>
 <p><img src="스크린샷 2018-08-18 오후 11.27.10.png" alt=""></p>
