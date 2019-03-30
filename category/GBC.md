@@ -1,5 +1,5 @@
 ---
-layout : blog
+layout : category
 title : GBC
 icon : fa-pencil
 order : 2
