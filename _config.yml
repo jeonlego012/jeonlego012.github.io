@@ -50,13 +50,13 @@ facebook_url:
 googleplus_url:
 instagram_url:
 linkedin_url:
-github_url:
+github_url: https://github.com/jeonlego012
 pinterest_url:
 slack_url:
 dribbble_url:
 
 # Google Analytics Tracking ID goes here:
-google_analytics:
+google_analytics: 
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue

@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Portfolio
-author_profile: true
+icon: fa-address-card
 ---
