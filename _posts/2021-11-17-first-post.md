@@ -1,8 +1,9 @@
 ---
 layout: post
-title: test
+title: my first post
 date: 2021-11-17 12:37:00
 categories: category1 category2
 ---
 
 this post is for test~
+and this is my first post!
