@@ -31,7 +31,6 @@ twitter_username: jekyllrb
 github_username:  jeonlego012
 
 # Build settings
-remote_theme: chrisbobbe/jekyll-theme-prologue
 plugins:
   - jekyll-feed
 
