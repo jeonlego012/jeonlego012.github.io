@@ -1,0 +1,48 @@
+---
+title: 개발 라이프
+icon: nothing
+order: 2
+---
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="chart_div"></div>
+<script>
+  google.charts.load('current', { 'packages': ['timeline'] });
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Team');
+    data.addColumn('date', 'Season Start Date');
+    data.addColumn('date', 'Season End Date');
+
+    data.addRows([
+      ['정보보안 동아리 \'고스트\' 활동', new Date(2018, 3), new Date(2021, 6)],
+      ['S-lab 스터디', new Date(2019, 2), new Date(2019, 6)],
+      ['S-lab 스터디', new Date(2019, 7, 15), new Date(2019, 11, 8)],
+      ['아두이노 교육 봉사(포항 동지고)', new Date(2019, 1, 7), new Date(2019, 1, 12)],
+      ['파이썬 프로그래밍 TA', new Date(2019, 3), new Date(2019, 6)],
+      ['교내 ACM-ICPC 경진대회 은상', new Date(2019, 11, 28), new Date(2019, 11, 28)],
+      ['캡스톤 디자인(CodeTaka)', new Date(2020, 1), new Date(2020, 6)],
+      ['소프트웨어 공학 수업 프로젝트', new Date(2020, 4, 10), new Date(2020, 6, 6)],
+      ['VR회사 \'텍톤스페이스\' 인턴', new Date(2020, 7, 1), new Date(2020, 7, 28)],
+      ['경북 SW미래채움 파이썬 조교', new Date(2020, 10, 14), new Date(2020, 10, 15)],
+      ['모바일 앱개발 수업 프로젝트', new Date(2021, 5), new Date(2021, 6)],
+      ['개인 프로젝트', new Date(2021, 10, 28), new Date(2021, 11, 16)]
+    ]);
+
+    var options = {
+      title: 'Develop Life',
+      height: 600,
+      width: 1000,
+      timeline: {
+        groupByRowLabel: true
+      },
+    };
+
+    var chart = new google.visualization.Timeline(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+</script>
