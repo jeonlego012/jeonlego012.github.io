@@ -5,4 +5,106 @@ order: 4
 ---
 
 
-<h3>MARI</h3>
+<style>
+    #image {
+      padding-top: 50px;
+    }
+  
+    #content {
+      color: black;
+      clear: both;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      font-size: 20px;
+    }
+  
+    #content b {
+      font-weight: bold;
+      
+    }
+  
+    #explain {
+      font-size: 15px;
+      color: black;
+    }
+  
+    table {
+      width: 50%;
+      height: 100px;
+      margin: auto;
+      text-align: center;
+    }
+  
+    #info {
+      color: black;
+      padding-bottom: 30px;
+    }
+  
+    
+  </style>
+  
+  
+  <h3>MARI</h3>
+  <h4>모바일 앱</h4>
+  
+  
+  <div id="image" style="float: left; padding-left: 30px;">
+    <img src="assets/images/mari1.jpeg" alt="initial screen" width="155" height="250"/>
+    <p id="explain">&lt;로그인 화면&gt;</p>
+  </div>
+  <div id="image" style="float: left; padding-left: 30px;">
+    <img src="assets/images/mari2.jpeg" alt="bowl screen" width="155" height="250"/>
+    <p id="explain">&lt;어항자랑 화면&gt;</p>
+  </div>
+  <div id="image" style="float: left; padding-left: 30px;">
+    <img src="assets/images/mari3.jpeg" alt="detail screen" width="150" height="250" />
+    <p id="explain">&lt;어항자랑 상세 화면&gt;</p>
+  </div>
+  <div id="image" style="float: left; padding-left: 30px;">
+    <img src="assets/images/mari4.jpeg" alt="dictionary screen" width="155" height="250" />
+    <p id="explain">&lt;물고기사전 화면&gt;</p>
+  </div>
+  <div id="image" style="float: left; padding-left: 30px;">
+    <img src="assets/images/mari5.jpeg" alt="map screen" width="155" height="250" />
+    <p id="explain">&lt;수족관 지도 화면&gt;</p>
+  </div>
+  <div id="content">
+    반려동물, 반려식물을 위한 앱은 있지만 반려물고기를 위한 앱이 없어서 앱을 고안하게 되었습니다. 내가 기르는 관상어를 자랑하고 싶을 때, 관상어를 처음 키워보려는데 정보를 한 곳에서 보고싶을 때 사용하기 좋은 '세상에서 가장 작은 아쿠아리움, 마리' 앱입니다. Flutter로 처음 앱개발을 해보았고 데이터는 FlutterFire를 사용하여 저장했습니다. 사용자의 로그인 상태는 <b>Provider</b>로 관리하였고 어항 자랑 포스트는 <b>collection-document-collection 형식</b>으로 포스트 안에 덧글을 저장하였습니다. 수족관 페이지는 <b>Google map API</b>를 이용하였습니다. 모바일 앱개발 수업 시간에 진행한 프로젝트입니다.
+  </div>
+  <div id="info">
+    주요기능
+    <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px">어항 자랑 포스트, 물고기 사전, 물고기 분양 포스트, 근처 수족관 찾기, 물고기 이름 추천</div>
+  </div>
+  <div id="info">
+    사용 기술
+    <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px"><div style="font-size: 20px">Flutter, Firebase, Google Maps</div><img src="assets/images/flutter.png" alt="flutter" width="140" height="40"/>&nbsp;&nbsp;&nbsp;<img src="assets/images/firebase.png" alt="firebase" width="140" height="40"/>&nbsp;&nbsp;&nbsp;<img src="assets/images/googlemap.png" alt="google maps" width="170" height="35"/>
+  </div>
+  <div id="info">
+    실행 영상
+    <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px"><a href="https://youtu.be/zhR7iowmPyg" target="_blank">https://youtu.be/zhR7iowmPyg</a></div>
+  </div>
+  <div id="info">
+    깃허브
+    <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px"><a href="https://github.com/HGU-MobileAppMari/MobileApplication-Mari" target="_blank">https://github.com/HGU-MobileAppMari/MobileApplication-Mari</a></div>
+  </div>
+  <table>
+    <td>
+      <div id="info">
+        인원
+        <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px">2명</div>
+      </div>
+    </td>
+    <td>
+      <div id="info">
+        기여도
+        <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px">50%</div>
+      </div>
+    </td>
+    <td>
+      <div id="info">
+        기간
+        <i class="fa fa-chevron-circle-down"></i><div style="font-size: 20px">2021.05 - 2021.06</div>
+      </div>
+    </td>
+  </table>
